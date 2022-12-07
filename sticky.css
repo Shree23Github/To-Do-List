@@ -1,0 +1,134 @@
+    @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+    body {
+        background-image: url("Image.jpg")
+    }
+    
+    div {
+        margin: 20px auto;
+        width: 70%;
+        font-family: 'Lato';
+        padding: 5px;
+        background: linear-gradient(65deg, rgba(232, 97, 52, 0.64), white);
+        color: rgb(17, 16, 16);
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    h4 {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    
+    p {
+        font-family: 'Reenie Beanie';
+        font-size: 2rem;
+    }
+    
+    ul,
+    li {
+        list-style: none;
+    }
+    
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    ul li a {
+        text-decoration: none;
+        background: #ffc;
+        color: #000;
+        display: block;
+        height: 10em;
+        width: 10em;
+        padding: 1em;
+        box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);
+    }
+    
+    ul li {
+        margin: 1em;
+    }
+    
+    ul li:nth-child(odd) a {
+        transform: rotate(-4deg);
+        position: relative;
+        top: 5px;
+    }
+    
+    ul li:nth-child(even) a {
+        transform: rotate(4deg);
+        position: relative;
+        top: 5px;
+    }
+    
+    ul li:nth-child(3n) a {
+        transform: rotate(-3deg);
+        position: relative;
+        top: -5px;
+    }
+    
+    ul li:nth-child(5n) a {
+        transform: rotate(5deg);
+        position: relative;
+        top: -10px;
+    }
+    
+    ul li a:hover,
+    ul li a:focus {
+        box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
+        transform: scale(1.25);
+        position: relative;
+    }
+    
+    ul li:nth-child(n) a {
+        position: relative;
+        top: -5px;
+        background: #dabece;
+    }
+    
+    ul li:nth-child(2n) a {
+        position: relative;
+        top: -5px;
+        background: rgb(189, 174, 235);
+    }
+    
+    ul li:nth-child(3n) a {
+        position: relative;
+        top: 5px;
+        background: #ffb3ba;
+    }
+    
+    ul li:nth-child(4n) a {
+        position: relative;
+        top: -5px;
+        background: #f1d3b3;
+    }
+    
+    ul li:nth-child(5n) a {
+        position: relative;
+        top: -5px;
+        background: #baffc9;
+    }
+    
+    ul li:nth-child(6n) a {
+        position: relative;
+        top: -5px;
+        background: #cdf6f6;
+    }
+    
+    ul li:nth-child(7n) a {
+        position: relative;
+        top: -5px;
+        background: #f0dbdb;
+    }
+    
+    ul li:nth-child(8n) a {
+        position: relative;
+        top: -5px;
+        background: #bccef8;
+    }
